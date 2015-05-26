@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BRIDGETMARY</Machine>
+    <WindowsUser>Bridget Mary</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>24897BridgetGallagher.GalwayArtsFestival2015</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\Galway Arts Festival.exe">
+      <PackagePath>Galway Arts Festival.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\aroundgalway.jpg">
+      <PackagePath>Assets\aroundgalway.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Big-Top.jpg">
+      <PackagePath>Assets\Big-Top.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\damien rice.jpg">
+      <PackagePath>Assets\damien rice.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\email logo.jpg">
+      <PackagePath>Assets\email logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\gettingthere.jpg">
+      <PackagePath>Assets\gettingthere.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\instagram.jpg">
+      <PackagePath>Assets\instagram.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\John Crumlin.jpg">
+      <PackagePath>Assets\John Crumlin.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\kodaline.jpg">
+      <PackagePath>Assets\kodaline.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Main Logo.jpg">
+      <PackagePath>Assets\Main Logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\paul fahy.jpg">
+      <PackagePath>Assets\paul fahy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\sinead o connor.jpg">
+      <PackagePath>Assets\sinead o connor.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\st vincetn.jpg">
+      <PackagePath>Assets\st vincetn.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\the coronas.jpg">
+      <PackagePath>Assets\the coronas.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Twitter.jpg">
+      <PackagePath>Assets\Twitter.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue1.jpg">
+      <PackagePath>Assets\Venue Pics\venue1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue10.jpg">
+      <PackagePath>Assets\Venue Pics\venue10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue11.jpg">
+      <PackagePath>Assets\Venue Pics\venue11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue12.jpg">
+      <PackagePath>Assets\Venue Pics\venue12.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue13.jpg">
+      <PackagePath>Assets\Venue Pics\venue13.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue14.jpg">
+      <PackagePath>Assets\Venue Pics\venue14.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue2.jpg">
+      <PackagePath>Assets\Venue Pics\venue2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue3.jpg">
+      <PackagePath>Assets\Venue Pics\venue3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue4.jpg">
+      <PackagePath>Assets\Venue Pics\venue4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue5.jpg">
+      <PackagePath>Assets\Venue Pics\venue5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue6.jpg">
+      <PackagePath>Assets\Venue Pics\venue6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue7.jpg">
+      <PackagePath>Assets\Venue Pics\venue7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue8.jpg">
+      <PackagePath>Assets\Venue Pics\venue8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venue9.jpg">
+      <PackagePath>Assets\Venue Pics\venue9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Venue Pics\venues.jpg">
+      <PackagePath>Assets\Venue Pics\venues.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\venues.jpg">
+      <PackagePath>Assets\venues.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\wheretostay.jpg">
+      <PackagePath>Assets\wheretostay.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\eyre square.scale-100.png">
+      <PackagePath>Assets\eyre square.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\facebook.png">
+      <PackagePath>Assets\facebook.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\faxc icon.png">
+      <PackagePath>Assets\faxc icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\MapGalway.scale-100.png">
+      <PackagePath>Assets\MapGalway.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Splash.png">
+      <PackagePath>Assets\Splash.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\google +.png">
+      <PackagePath>Assets\google +.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\youtube.png">
+      <PackagePath>Assets\youtube.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\telephone icon.png">
+      <PackagePath>Assets\telephone icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Assets\Galway map.bmp">
+      <PackagePath>Assets\Galway map.bmp</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\About.xbf">
+      <PackagePath>About.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\AroundGalway.xbf">
+      <PackagePath>AroundGalway.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\BecomeASponsor.xbf">
+      <PackagePath>BecomeASponsor.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\BusinessFriend.xbf">
+      <PackagePath>BusinessFriend.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\ContactButton.xbf">
+      <PackagePath>ContactButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\cooperatepartnership.xbf">
+      <PackagePath>cooperatepartnership.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\DirectorsCircle.xbf">
+      <PackagePath>DirectorsCircle.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\FestivalInfo.xbf">
+      <PackagePath>FestivalInfo.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\GettingThere.xbf">
+      <PackagePath>GettingThere.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\IndividualFriend.xbf">
+      <PackagePath>IndividualFriend.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\PeopleButton.xbf">
+      <PackagePath>PeopleButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\PlanYourVisit.xbf">
+      <PackagePath>PlanYourVisit.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\Support.xbf">
+      <PackagePath>Support.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\UsefulWebsites.xbf">
+      <PackagePath>UsefulWebsites.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\Venues.xbf">
+      <PackagePath>Venues.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\Volunteer.xbf">
+      <PackagePath>Volunteer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\WhatsOn.xbf">
+      <PackagePath>WhatsOn.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\WhereToStay.xbf">
+      <PackagePath>WhereToStay.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

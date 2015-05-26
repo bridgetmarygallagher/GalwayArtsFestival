@@ -1,0 +1,98 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="Galway_Arts_Festival.WhatsOn"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Galway_Arts_Festival"
+    xmlns:common="using:Galway_Arts_Festival.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FFE6A432" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button" BorderBrush="#FF110101" Foreground="#FF0E0101"/>
+            <TextBlock x:Name="pageTitle" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" Foreground="#FFE6A432" Text="Whats On" FontWeight="Normal"/>
+        </Grid>
+        <ListBox HorizontalAlignment="Left" Height="597" Margin="0,44,0,0" Grid.Row="1" VerticalAlignment="Top" Width="753" Foreground="#FFE04B13">
+            <ListBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE6A432" Offset="1"/>
+                </LinearGradientBrush>
+            </ListBox.Background>
+            <Image x:Name="kodaline_image" HorizontalAlignment="Left" Height="353" VerticalAlignment="Top" Width="646" Source="Assets/kodaline.jpg"/>
+            <TextBlock Height="28" TextWrapping="Wrap" Text="Kodaline Will be playing 2 headlining gigs at this year Festival" Width="585" SelectionHighlightColor="#FFFFD412" Foreground="White" FontSize="22" FontWeight="Bold"/>
+            <TextBlock Height="29" TextWrapping="Wrap" Text="When: Friday 17th,18th July 20:00 Tickets €45" Width="612" SelectionHighlightColor="#FFFFD412" Foreground="White" FontSize="22" RenderTransformOrigin="0.51,-0.379" FontWeight="Bold"/>
+            <Image HorizontalAlignment="Left" Height="368" VerticalAlignment="Top" Width="646" Source="Assets/st vincetn.jpg"/>
+            <TextBlock Height="34" TextWrapping="Wrap" Text="St.Vincent plus special guest Little Green Cars" Width="616" SelectionHighlightColor="#FFFFD412" Foreground="White" FontSize="22" FontWeight="Bold"/>
+            <TextBlock Height="29" TextWrapping="Wrap" Text="When: 14th of July 20:00 Tickets €35" Width="612" SelectionHighlightColor="#FFFFD412" Foreground="White" FontSize="22" RenderTransformOrigin="0.51,-0.379" FontWeight="Bold"/>
+            <Image HorizontalAlignment="Left" Height="360" VerticalAlignment="Top" Width="646" Source="Assets/sinead o connor.jpg"/>
+            <TextBlock Height="34" TextWrapping="Wrap" Text="Sinead O'Connor plus special guest John Grant" Width="616" SelectionHighlightColor="#FFFFD412" Foreground="White" FontSize="22" FontWeight="Bold"/>
+            <TextBlock Height="29" TextWrapping="Wrap" Text="When: 23rd of July 20:00 Tickets €39.50" Width="612" SelectionHighlightColor="#FFFFD412" Foreground="White" FontSize="22" RenderTransformOrigin="0.51,-0.379" FontWeight="Bold"/>
+            <Image HorizontalAlignment="Left" Height="368" VerticalAlignment="Top" Width="646" Source="Assets/damien rice.jpg"/>
+            <TextBlock Height="34" TextWrapping="Wrap" Text="Damien Rice" Width="616" SelectionHighlightColor="#FFFFD412" Foreground="White" FontSize="22" FontWeight="Bold"/>
+            <TextBlock Height="29" TextWrapping="Wrap" Text="When: 16th of July 20:00 Tickets €45" Width="612" SelectionHighlightColor="#FFFFD412" Foreground="White" FontSize="22" RenderTransformOrigin="0.51,-0.379" FontWeight="Bold"/>
+            <Image HorizontalAlignment="Left" Height="368" VerticalAlignment="Top" Width="646" Source="Assets/the coronas.jpg"/>
+            <TextBlock Height="34" TextWrapping="Wrap" Text="The Coronas" Width="616" SelectionHighlightColor="#FFFFD412" Foreground="White" FontSize="22" FontWeight="Bold"/>
+            <TextBlock Height="29" TextWrapping="Wrap" Text="When: 25th of July 19:00 Tickets €35" Width="612" SelectionHighlightColor="#FFFFD412" Foreground="White" FontSize="22" RenderTransformOrigin="0.51,-0.379" FontWeight="Bold"/>
+
+        </ListBox>
+        <TextBlock HorizontalAlignment="Left" Margin="940,80,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="67" Width="287"/>
+        <Image HorizontalAlignment="Left" Height="329" Margin="829,64,0,0" Grid.Row="1" VerticalAlignment="Top" Width="510" Source="Assets/Big-Top.jpg"/>
+        <TextBox HorizontalAlignment="Left" Height="54" Margin="889,5,0,0" TextWrapping="Wrap" Text="Venue : Festival Big Top" VerticalAlignment="Top" Width="371" Grid.Row="1" FontSize="25" FontWeight="Bold" RenderTransformOrigin="0.542,0.82" BorderBrush="White" Foreground="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE6A432" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox HorizontalAlignment="Left" Height="88" Margin="889,393,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Please note under 16's must be accompanied by an adult         " VerticalAlignment="Top" Width="403" FontWeight="Bold" FontSize="25" Foreground="White" BorderBrush="White">
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE6A432" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+    </Grid>
+</Page>

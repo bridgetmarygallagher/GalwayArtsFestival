@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="24897BridgetGallagher.GalwayArtsFestival2015" Publisher="CN=A11702E0-C562-4640-9DD6-1824AA59D24D" Version="1.1.0.0" />
+  <Properties>
+    <DisplayName>Galway Arts Festival 2015</DisplayName>
+    <PublisherDisplayName>BridgetGallagher</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Galway_Arts_Festival.App">
+      <m2:VisualElements DisplayName="Galway Arts Festival 2015" Square150x150Logo="Assets\eyre square.png" Square30x30Logo="Assets\MapGalway.png" Description="Galway Arts Festival 2015, A simple but effective app, providing information about the festival and various activties taking place throughtout the week." ForegroundText="light" BackgroundColor="#464646">
+        <m2:DefaultTile ShortName="Galway Arts Festival">
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+        </m2:InitialRotationPreference>
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="Galway_Arts_Festival.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Galway_Arts_Festival">
+
+</Application>
+

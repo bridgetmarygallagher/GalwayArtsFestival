@@ -1,0 +1,127 @@
+﻿<Page
+    x:Name="pageRoot"
+    x:Class="Galway_Arts_Festival.About"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Galway_Arts_Festival"
+    xmlns:common="using:Galway_Arts_Festival.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">About</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Margin="0,0,0.429,-42.857">
+        <FlyoutBase.AttachedFlyout>
+            <MenuFlyout/>
+        </FlyoutBase.AttachedFlyout>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black" Offset="0"/>
+                <GradientStop Color="#FFE6A432" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40" Foreground="#FFE6A432" FontWeight="Bold"/>
+        </Grid>
+        <ListBox HorizontalAlignment="Left" Margin="36,10,0,-67.143" Grid.Row="1" Width="609">
+            <ListBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE6A432" Offset="1"/>
+                </LinearGradientBrush>
+            </ListBox.Background>
+            <TextBlock Height="63" TextWrapping="Wrap" Text="  Mission And History" Width="544" Foreground="#FFE6A432" FontSize="48" FontWeight="Bold"/>
+            <TextBlock Height="146" TextWrapping="Wrap" Text="Discover the creative roots of the most imaginative arts Festival in Ireland.                                 The Festival...creative collisions for a new perspective" Width="504" SelectionHighlightColor="#FFFFD412" FontSize="24" FontWeight="Bold" RenderTransformOrigin="0.503,0.494">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <TextBlock Height="2178" TextWrapping="Wrap" Text="Galway International Arts Festival is a creative collision of performance, music, visual art and discussion. It is one of Ireland's most vibrant and exciting Festivals offering a wide range of experiences from world-class theatre to impromptu musical performances on Galway's winding streets.
+
+Based along the Wild Atlantic Way on the edge of the ocean, Galway is a vibrant, thriving cosmopolitan city full of energy and zeal where magic happens, not only on stages and galleries but also on street corners in its medieval city centre.
+
+Strolling along the cobbled streets, every turn offers the possibility for new adventure; surreal giant puppets snaking through the streets, enchanting music, enthralling musicans and awe-inspiring street theatre.
+
+From the all-out party atmosphere at the Festival Big Top to the quiet contemplation in the Festival galleries...the Festival transforms the city through the arts in an engaging, fun and authentic way. If you happen to visit Galway during the arts festival, expect to be transformed too.
+
+The Festival is special. Worlds, cultures and dreams collide inspiring passion, creativity and new ways of thinking.
+
+Festival History... the roots of imagination
+
+Galway International Arts Festival has been connecting audiences and artists for over 37 years. Founded in 1978, it has grown into an event with a major reputation where, in 2014, there were 180,000 attendances at 213 performances, talks and exhibitions in 29 venues over 14 days.
+
+The Festival was established by a group of fledgling and experienced artists, who, sitting around a kitchen table one afternoon, dreamed of bringing world-class artists to Ireland, while also supporting Irish artists and showcasing their work on the world stage, creating unique and wonderful experiences for all...and so they did.
+
+The Festival has contributed massively to placing Galway firmly on the map, as both a key cultural centre for the arts and a cultural tourism destination. The Festival has also founded and acted as a seedbed for a number of well-known and established arts organisations in Galway.
+
+Galway International Arts Festival presents and produces programmes of the highest quality across all art forms featuring theatre, music, visual arts, opera, street spectacle, dance, discussion and comedy. The Festival is committed to continually developing and producing new work, which tours internationally. In 2014, the Festival's co-productions - Ballyturk, riverrun and Chapatti, have toured extensively throughout Ireland, UK, USA and beyond.
+
+Highlights from the programme in recent years include; Primal Scream, Philip Glass, New York Dolls, David Gray, David Byrne, Brad Mehldau, Blondie, Kronos Quartet, Brodsky Quartet, Bon Iver, David Hockney, Joni Mitchell, Henri Matisse and David Mach.
+
+Visiting international theatre and dance companies have included John Mahoney and Northlight Theatre, The Royal National Theatre, Propeller, The Royal Court, Steppenwolf, Fabulous Beast Dance Company.
+
+
+" Width="561" FontSize="24" FontWeight="Bold" Foreground="#FFFFFBFB"/>
+        </ListBox>
+        <Button x:ConnectionId='1' x:Name="Contact_Button" Content="Contact" HorizontalAlignment="Left" Height="118" Margin="753,62,0,0" Grid.Row="1" VerticalAlignment="Top" Width="511" FontSize="24" FontWeight="Bold" BorderThickness="5" Foreground="#FF060606"                            >
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE6A432" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:ConnectionId='2' x:Name="PeopleButton" Content="People" HorizontalAlignment="Left" Height="118" Margin="753,256,0,0" Grid.Row="1" VerticalAlignment="Top" Width="511" FontSize="25" FontWeight="Bold" BorderThickness="5" Foreground="#FF040404"                           >
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE6A432" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:ConnectionId='3' Content="Volunteer" HorizontalAlignment="Left" Height="118" Margin="753,434,0,0" Grid.Row="1" VerticalAlignment="Top" Width="511" FontSize="25" FontWeight="Bold" BorderThickness="5" Foreground="Black"                              >
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE6A432" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+    </Grid>
+</Page>
+

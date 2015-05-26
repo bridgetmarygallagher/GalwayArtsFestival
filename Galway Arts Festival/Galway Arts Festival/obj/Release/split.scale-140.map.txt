@@ -1,0 +1,9 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-140"
+"ResourceDimensions"		"scale-140"
+
+[Files]
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\split.scale-140.pri"			"resources.pri"
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\PackageLayout\Assets\venues - Copy.scale-140.jpg"			"Assets\venues - Copy.scale-140.jpg"
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\PackageLayout\Assets\SplashScreen.scale-140.png"			"Assets\SplashScreen.scale-140.png"
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\PackageLayout\Assets\planyourvisit.scale-140.png"			"Assets\planyourvisit.scale-140.png"

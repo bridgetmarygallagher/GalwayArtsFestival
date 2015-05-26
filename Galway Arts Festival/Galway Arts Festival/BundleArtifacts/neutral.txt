@@ -1,0 +1,4 @@
+MainPackage=D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\Galway Arts Festival_1.1.0.2_Bundle\Galway Arts Festival_1.1.0.2_AnyCPU.appx
+SymbolPackage=D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\AppPackages\Galway Arts Festival_1.1.0.2_Test\Galway Arts Festival_1.1.0.2_AnyCPU.appxsym
+ResourcePack=D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\Galway Arts Festival_1.1.0.2_Bundle\Galway Arts Festival_1.1.0.2_scale-140.appx
+ResourcePack=D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\bin\Release\Galway Arts Festival_1.1.0.2_Bundle\Galway Arts Festival_1.1.0.2_scale-180.appx

@@ -1,0 +1,106 @@
+﻿<Page
+    x:Class="Galway_Arts_Festival.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Galway_Arts_Festival"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+   
+
+    <Grid x:Name="mainbackground">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFD88522"/>
+                <GradientStop Color="#FF6E5E15" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+        <HyperlinkButton x:Name="facebook" Content="" HorizontalAlignment="Left" Height="84" Margin="1230,56,-3,0" VerticalAlignment="Top" Width="144" RenderTransformOrigin="0.889,0.571" NavigateUri="https://www.facebook.com/GalwayInternationalArtsFest">
+            <HyperlinkButton.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Assets/facebook.png"/>
+            </HyperlinkButton.Background>
+        </HyperlinkButton>
+        <HyperlinkButton x:Name="twitter" Content="" HorizontalAlignment="Left" Height="112" Margin="1247,184,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="0.889,0.571" NavigateUri="https://twitter.com/GalwayIntArts">
+            <HyperlinkButton.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Assets/Twitter.jpg"/>
+            </HyperlinkButton.Background>
+        </HyperlinkButton>
+        <HyperlinkButton x:Name="googlePlus" Content="" HorizontalAlignment="Left" Height="84" Margin="1230,332,-3,0" VerticalAlignment="Top" Width="144" RenderTransformOrigin="0.889,0.571" NavigateUri="https://plus.google.com/+galwayartsfestival/posts">
+            <HyperlinkButton.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Assets/google +.png"/>
+            </HyperlinkButton.Background>
+        </HyperlinkButton>
+        <HyperlinkButton x:Name="youtube" Content="" HorizontalAlignment="Left" Height="84" Margin="1247,452,0,0" VerticalAlignment="Top" Width="112" RenderTransformOrigin="0.889,0.571" NavigateUri="https://www.youtube.com/user/galwayartsfest">
+            <HyperlinkButton.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Assets/youtube.png"/>
+            </HyperlinkButton.Background>
+        </HyperlinkButton>
+        <HyperlinkButton x:Name="instagram" Content="" HorizontalAlignment="Left" Height="80" Margin="1230,568,-3,0" VerticalAlignment="Top" Width="144" RenderTransformOrigin="0.889,0.571" NavigateUri="https://instagram.com/GalwayIntArts/">
+            <HyperlinkButton.Background>
+                <ImageBrush Stretch="Uniform" ImageSource="Assets/instagram.jpg"/>
+            </HyperlinkButton.Background>
+        </HyperlinkButton>
+        <Image x:Name="mainLogo" HorizontalAlignment="Left" Height="290" Margin="26,40,0,0" VerticalAlignment="Top" Width="408" Source="Assets/Main Logo.jpg"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="726" Margin="1250,0,0,0" VerticalAlignment="Top" Width="106" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <CompositeTransform Rotation="-0.037"/>
+            </Border.RenderTransform>
+        </Border>
+        <TextBox x:ConnectionId='1' HorizontalAlignment="Left" Height="139" Margin="26,335,0,0" TextWrapping="Wrap" Text="A Creative Collision at the edge of Europe...                                               13-26 July 2015" VerticalAlignment="Top" Width="408"                                   FontSize="24" FontFamily="Segoe UI" FontWeight="Bold">
+            <TextBox.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE0D713" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.BorderBrush>
+            <TextBox.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFAC921E" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Background>
+        </TextBox>
+        <Button x:ConnectionId='2' x:Name="whatson" Content="Whats On" HorizontalAlignment="Left" Height="145" Margin="524,56,0,0" VerticalAlignment="Top" Width="238"                      Foreground="Black" FontSize="24" BorderThickness="5" FontWeight="Bold">
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE0D713" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:ConnectionId='3' x:Name="festivalinfo" Content="Festival Info" HorizontalAlignment="Left" Height="145" Margin="524,302,0,0" VerticalAlignment="Top" Width="238"                       Foreground="Black" FontSize="24" BorderThickness="5" FontWeight="Bold">
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE0D713" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:ConnectionId='4' x:Name="support" Content="Support" HorizontalAlignment="Left" Height="145" Margin="948,58,0,0" VerticalAlignment="Top" Width="238"                       Foreground="Black" FontSize="24" BorderThickness="5" FontWeight="Bold">
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE0D713" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:ConnectionId='5' x:Name="planyourvisit" Content="Plan Your Visit" HorizontalAlignment="Left" Height="145" Margin="948,302,0,0" VerticalAlignment="Top" Width="238"                       Foreground="Black" FontSize="24" BorderThickness="5" FontWeight="Bold">
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE0D713" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Button x:ConnectionId='6' x:Name="about" Content="About" HorizontalAlignment="Left" Height="145" Margin="738,526,0,0" VerticalAlignment="Top" Width="238"                       Foreground="Black" FontSize="24" BorderThickness="5" FontWeight="Bold">
+            <Button.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="#FFE0D713" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+    </Grid>
+</Page>
+

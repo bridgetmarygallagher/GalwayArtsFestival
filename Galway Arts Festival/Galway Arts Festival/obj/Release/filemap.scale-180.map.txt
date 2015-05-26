@@ -1,0 +1,12 @@
+﻿[ResourceMetadata]
+"ResourceId"			"filemap.scale-180"
+"ResourceDimensions"		"scale-180"
+
+[Files]
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\filemap.scale-180.pri"			"resources.pri"
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\PackageLayout\Assets\StoreLogo.scale-180.jpg"			"Assets\StoreLogo.scale-180.jpg"
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\PackageLayout\Assets\planyourvisit.scale-180.png"			"Assets\planyourvisit.scale-180.png"
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\PackageLayout\Assets\Main Logo Badge.scale-180.jpg"			"Assets\Main Logo Badge.scale-180.jpg"
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\PackageLayout\Assets\logo.scale-180.jpg"			"Assets\logo.scale-180.jpg"
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\PackageLayout\Assets\Getting there square.scale-180.jpg"			"Assets\Getting there square.scale-180.jpg"
+"D:\GalwayArtsFestival\Galway Arts Festival\Galway Arts Festival\obj\Release\PackageLayout\Assets\damien rice - Copy.scale-180.jpg"			"Assets\damien rice - Copy.scale-180.jpg"
